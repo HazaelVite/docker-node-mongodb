@@ -1,0 +1,24 @@
+{
+  "name": "docker-node-mongodb",
+  "version": "1.0.0",
+  "description": "Actividad 2: Contenedores UNIR",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "node",
+    "unir",
+    "mongodb",
+    "contenedores",
+    "docker",
+    "hazael",
+    "vite"
+  ],
+  "author": "Hazael Vite C",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongose": "^0.0.2-security"
+  }
+}
