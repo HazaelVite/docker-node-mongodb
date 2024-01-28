@@ -1,7 +1,7 @@
 // Archivo para mongoDB
-const mongose = require('mongose');
+const mongoose = require('mongoose');
 const HOST = 'mongo';
 const DB_NAME = 'mydatabase'
-mongose.connect('mongodb://mongo/mydatabase')
-    .then(db => console.log('DB is connect to', db.conection.host ))
-    .catch(err => console.error(err));
+mongoose.connect('mongodb://mongo/mydatabase')
+    .then(db => console.log('DB is connect to', db.connection.host ))
+    .catch(err => console.log('MongoDB no conecto :c ', err));
