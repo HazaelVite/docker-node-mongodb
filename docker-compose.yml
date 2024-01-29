@@ -2,7 +2,7 @@ version: "3"
 
 services:
   web:
-    container_name: node-app
+    container_name: hazzvite/node-app
     restart: always
     build: .
     ports:
@@ -12,7 +12,13 @@ services:
     volumes:
       - .:/usr/src/app
   mongo:
-    container_name: mongo
+    container_name: hazzvite/mongo:latest
     image: mongo
     ports:
       - "27018:27017"
+
+
+
+
+
+      
